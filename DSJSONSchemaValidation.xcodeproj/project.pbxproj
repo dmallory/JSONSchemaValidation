@@ -401,7 +401,7 @@
 		2A659F7A212E067D003D9FBD /* DSJSONSchemaTypeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaTypeValidator.m; sourceTree = "<group>"; };
 		2A659F7B212E067D003D9FBD /* DSJSONSchemaEnumValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaEnumValidator.h; sourceTree = "<group>"; };
 		2A659F7C212E067D003D9FBD /* DSJSONSchemaObjectPropertiesValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaObjectPropertiesValidator.m; sourceTree = "<group>"; };
-		2A659F7D212E067D003D9FBD /* DSJSONSchemaFormatValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaFormatValidator.h; sourceTree = "<group>"; };
+		2A659F7D212E067D003D9FBD /* DSJSONSchemaFormatValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSJSONSchemaFormatValidator.h; path = include/DSJSONSchemaFormatValidator.h; sourceTree = "<group>"; };
 		2A659F7E212E067D003D9FBD /* DSJSONSchemaNumericValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaNumericValidator.h; sourceTree = "<group>"; };
 		2A659F7F212E067D003D9FBD /* DSJSONSchemaArrayValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaArrayValidator.h; sourceTree = "<group>"; };
 		2A659F80212E067D003D9FBD /* DSJSONSchemaContentValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaContentValidator.h; sourceTree = "<group>"; };
@@ -410,31 +410,31 @@
 		2A659F83212E067D003D9FBD /* DSJSONSchemaPropertyNamesValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaPropertyNamesValidator.h; sourceTree = "<group>"; };
 		2A65A03C212E06AC003D9FBD /* DSJSONSchemaDefinitions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaDefinitions.m; sourceTree = "<group>"; };
 		2A65A03D212E06AC003D9FBD /* DSJSONSchemaDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaDefinitions.h; sourceTree = "<group>"; };
-		2A67AA8B211D5E85001A3290 /* DSJSONSchemaSpecification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaSpecification.h; sourceTree = "<group>"; };
+		2A67AA8B211D5E85001A3290 /* DSJSONSchemaSpecification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSJSONSchemaSpecification.h; path = include/DSJSONSchemaSpecification.h; sourceTree = "<group>"; };
 		2A67AA8C211D5E85001A3290 /* DSJSONSchemaSpecification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaSpecification.m; sourceTree = "<group>"; };
-		2A67AA99211EB045001A3290 /* DSJSONDictionarySchema.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSJSONDictionarySchema.h; sourceTree = "<group>"; };
+		2A67AA99211EB045001A3290 /* DSJSONDictionarySchema.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSJSONDictionarySchema.h; path = include/DSJSONDictionarySchema.h; sourceTree = "<group>"; };
 		2A67AA9A211EB045001A3290 /* DSJSONDictionarySchema.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSJSONDictionarySchema.m; sourceTree = "<group>"; };
-		2A67AAA3211EC065001A3290 /* DSJSONBooleanSchema.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSJSONBooleanSchema.h; sourceTree = "<group>"; };
+		2A67AAA3211EC065001A3290 /* DSJSONBooleanSchema.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSJSONBooleanSchema.h; path = include/DSJSONBooleanSchema.h; sourceTree = "<group>"; };
 		2A67AAA4211EC065001A3290 /* DSJSONBooleanSchema.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSJSONBooleanSchema.m; sourceTree = "<group>"; };
 		2A67AAAD211F177B001A3290 /* DSJSONSchema+Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSJSONSchema+Protected.h"; sourceTree = "<group>"; };
 		2A67AB14212AABE8001A3290 /* draft7 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = draft7; sourceTree = "<group>"; };
 		2A67AB16212AACC8001A3290 /* DSJSONSchemaDraft7Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaDraft7Tests.m; sourceTree = "<group>"; };
 		2AB57FF6212D4813004708E6 /* DSJSONSchemaOptionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaOptionsTests.m; sourceTree = "<group>"; };
-		2AB57FFA212D4B8B004708E6 /* DSJSONSchemaValidationOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaValidationOptions.h; sourceTree = "<group>"; };
+		2AB57FFA212D4B8B004708E6 /* DSJSONSchemaValidationOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DSJSONSchemaValidationOptions.h; path = include/DSJSONSchemaValidationOptions.h; sourceTree = "<group>"; };
 		2AB57FFB212D4B8B004708E6 /* DSJSONSchemaValidationOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaValidationOptions.m; sourceTree = "<group>"; };
 		2ACBB022212DDC2E0099B282 /* options */ = {isa = PBXFileReference; lastKnownFileType = folder; path = options; sourceTree = "<group>"; };
 		7D32BE8A1A545EFF009EB554 /* NSObject+DSJSONComparisonTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DSJSONComparisonTests.m"; sourceTree = "<group>"; };
 		7D4CAEB11A4FF95A003E1281 /* libDSJSONSchemaValidation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDSJSONSchemaValidation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4CAEBC1A4FF95A003E1281 /* DSJSONSchemaValidationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSJSONSchemaValidationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4CAEC21A4FF95A003E1281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D4CAECB1A4FF9A9003E1281 /* DSJSONSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchema.h; sourceTree = "<group>"; };
+		7D4CAECB1A4FF9A9003E1281 /* DSJSONSchema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSJSONSchema.h; path = include/DSJSONSchema.h; sourceTree = "<group>"; };
 		7D4CAECC1A4FF9A9003E1281 /* DSJSONSchema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchema.m; sourceTree = "<group>"; };
-		7D4CAECE1A4FF9D6003E1281 /* DSJSONSchemaValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaValidator.h; sourceTree = "<group>"; };
-		7D4CAED31A4FFC68003E1281 /* DSJSONSchemaReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaReference.h; sourceTree = "<group>"; };
+		7D4CAECE1A4FF9D6003E1281 /* DSJSONSchemaValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSJSONSchemaValidator.h; path = include/DSJSONSchemaValidator.h; sourceTree = "<group>"; };
+		7D4CAED31A4FFC68003E1281 /* DSJSONSchemaReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSJSONSchemaReference.h; path = include/DSJSONSchemaReference.h; sourceTree = "<group>"; };
 		7D4CAED41A4FFC68003E1281 /* DSJSONSchemaReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaReference.m; sourceTree = "<group>"; };
-		7D4CAF0F1A510053003E1281 /* DSJSONSchemaErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaErrors.h; sourceTree = "<group>"; };
+		7D4CAF0F1A510053003E1281 /* DSJSONSchemaErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSJSONSchemaErrors.h; path = include/DSJSONSchemaErrors.h; sourceTree = "<group>"; };
 		7D4CAF101A510053003E1281 /* DSJSONSchemaErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaErrors.m; sourceTree = "<group>"; };
-		7D4CAF171A5128C8003E1281 /* DSJSONSchemaFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaFactory.h; sourceTree = "<group>"; };
+		7D4CAF171A5128C8003E1281 /* DSJSONSchemaFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSJSONSchemaFactory.h; path = include/DSJSONSchemaFactory.h; sourceTree = "<group>"; };
 		7D4CAF181A5128C8003E1281 /* DSJSONSchemaFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaFactory.m; sourceTree = "<group>"; };
 		7D4CAF2B1A518E0B003E1281 /* DSJSONSchemaDraft4Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaDraft4Tests.m; sourceTree = "<group>"; };
 		7D4CAF2D1A518E87003E1281 /* DSJSONSchemaTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaTestCase.h; sourceTree = "<group>"; };
@@ -446,12 +446,12 @@
 		7D571D5B1A6167A70099BCCF /* DSJSONSchemaValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSJSONSchemaValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D571D5E1A6167A80099BCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D571D5F1A6167A80099BCCF /* DSJSONSchemaValidation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaValidation.h; sourceTree = "<group>"; };
-		7D5CD7241A5D525500BF00E0 /* DSJSONSchemaStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaStorage.h; sourceTree = "<group>"; };
+		7D5CD7241A5D525500BF00E0 /* DSJSONSchemaStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSJSONSchemaStorage.h; path = include/DSJSONSchemaStorage.h; sourceTree = "<group>"; };
 		7D5CD7251A5D525500BF00E0 /* DSJSONSchemaStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaStorage.m; sourceTree = "<group>"; };
 		7D8EDAB71D3F9582005557ED /* DSJSONSchemaValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSJSONSchemaValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8EDAB91D3F9582005557ED /* DSJSONSchemaValidation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaValidation.h; sourceTree = "<group>"; };
 		7D8EDABB1D3F9582005557ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DD039981A624A5A00E6639F /* DSJSONSchemaValidationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSJSONSchemaValidationContext.h; sourceTree = "<group>"; };
+		7DD039981A624A5A00E6639F /* DSJSONSchemaValidationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DSJSONSchemaValidationContext.h; path = include/DSJSONSchemaValidationContext.h; sourceTree = "<group>"; };
 		7DD039991A624A5A00E6639F /* DSJSONSchemaValidationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSJSONSchemaValidationContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -495,7 +495,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A659F54212E067D003D9FBD /* Categories */ = {
+		2A5E44FB24361F48006BA067 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
 				2A659F58212E067D003D9FBD /* NSArray+DSJSONComparison.h */,
@@ -513,10 +513,10 @@
 				2A659F59212E067D003D9FBD /* NSURL+DSJSONReferencing.h */,
 				2A659F5F212E067D003D9FBD /* NSURL+DSJSONReferencing.m */,
 			);
-			path = Categories;
+			name = Categories;
 			sourceTree = "<group>";
 		};
-		2A659F61212E067D003D9FBD /* Standard Validators */ = {
+		2A5E44FC24361F67006BA067 /* Standard Validators */ = {
 			isa = PBXGroup;
 			children = (
 				2A659F64212E067D003D9FBD /* DSJSONSchema+StandardValidators.h */,
@@ -556,7 +556,7 @@
 				2A659F68212E067D003D9FBD /* DSJSONSchemaTypeValidator.h */,
 				2A659F7A212E067D003D9FBD /* DSJSONSchemaTypeValidator.m */,
 			);
-			path = "Standard Validators";
+			name = "Standard Validators";
 			sourceTree = "<group>";
 		};
 		7D4CAEA81A4FF95A003E1281 = {
@@ -586,8 +586,8 @@
 		7D4CAEB31A4FF95A003E1281 /* DSJSONSchemaValidation */ = {
 			isa = PBXGroup;
 			children = (
-				2A659F54212E067D003D9FBD /* Categories */,
-				2A659F61212E067D003D9FBD /* Standard Validators */,
+				2A5E44FC24361F67006BA067 /* Standard Validators */,
+				2A5E44FB24361F48006BA067 /* Categories */,
 				7D4CAECB1A4FF9A9003E1281 /* DSJSONSchema.h */,
 				7D4CAECC1A4FF9A9003E1281 /* DSJSONSchema.m */,
 				2A67AAAD211F177B001A3290 /* DSJSONSchema+Protected.h */,
@@ -951,10 +951,11 @@
 			};
 			buildConfigurationList = 7D4CAEAC1A4FF95A003E1281 /* Build configuration list for PBXProject "DSJSONSchemaValidation" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7D4CAEA81A4FF95A003E1281;
 			productRefGroup = 7D4CAEB21A4FF95A003E1281 /* Products */;
