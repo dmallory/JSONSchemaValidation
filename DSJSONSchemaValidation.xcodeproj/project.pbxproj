@@ -951,10 +951,11 @@
 			};
 			buildConfigurationList = 7D4CAEAC1A4FF95A003E1281 /* Build configuration list for PBXProject "DSJSONSchemaValidation" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7D4CAEA81A4FF95A003E1281;
 			productRefGroup = 7D4CAEB21A4FF95A003E1281 /* Products */;
